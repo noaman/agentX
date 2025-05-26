@@ -12,8 +12,8 @@
 **You must rename all files with `"example"` in their filenames.**  
 For example:
 
-constants.example.py ➡️ constants.py
-mcp_config_example.json ➡️ mcp_config.json
+- constants.example.py ➡️ constants.py
+- mcp_config_example.json ➡️ mcp_config.json
 
 
 🚨 **The platform will NOT work until this step is completed.**  
