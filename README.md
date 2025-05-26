@@ -73,7 +73,7 @@ Navigate to `http://localhost:{port}` in your browser. The URL will be shown in 
 - You can add more tools in mcp/tools folder as per the sample provided
 - You can define the tool in server.py in /mcp/server.py and it will start listing in the agent builder interface.
 
-> ⚠️ **IMPORTANT SETUP STEP**
+## ⚠️ IMPORTANT SETUP STEP
 
 **You must rename all files with `"example"` in their filenames.**  
 For example:
