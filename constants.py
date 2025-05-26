@@ -31,6 +31,6 @@ OPENAI_BASE_URL = "https://api.openai.com/chat/completions/v1"
 LM_STUDIO_BASE_URL = "http://localhost:1234/v1"
 
 
-GEMINI_API_KEY = "AIzaSyAsBlHF0ihH-zP7WiBcMJzVtzGxQ6ehi3U"
-OPENAI_API_KEY = "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"
+GEMINI_API_KEY = "APIKEY"
+OPENAI_API_KEY = "APIKEY"
 LM_STUDIO_API_KEY = "lm-studio"
