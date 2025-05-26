@@ -7,17 +7,7 @@
 
 > **Agent X** is a comprehensive, user-friendly platform for building, testing, and managing AI agents with Model Context Protocol (MCP) integration. Create powerful AI agents with custom tools, test them in real-time, and manage MCP servers - all through an intuitive web interface. The agents are build on top of the Google Agent Development Kit (Google ADK)
 
-> ⚠️ **IMPORTANT SETUP STEP**
 
-**You must rename all files with `"example"` in their filenames.**  
-For example:
-
-- constants.example.py ➡️ constants.py
-- mcp_config_example.json ➡️ mcp_config.json
-
-
-🚨 **The platform will NOT work until this step is completed.**  
-Make sure to do this before running or deploying Agent X.
 
 ## 🚀 Quick Start
 
@@ -83,6 +73,17 @@ Navigate to `http://localhost:{port}` in your browser. The URL will be shown in 
 - You can add more tools in mcp/tools folder as per the sample provided
 - You can define the tool in server.py in /mcp/server.py and it will start listing in the agent builder interface.
 
+> ⚠️ **IMPORTANT SETUP STEP**
+
+**You must rename all files with `"example"` in their filenames.**  
+For example:
+
+- constants.example.py ➡️ constants.py
+- mcp_config_example.json ➡️ mcp_config.json
+
+
+🚨 **The platform will NOT work until this step is completed.**  
+Make sure to do this before running or deploying Agent X.
 
 
 
