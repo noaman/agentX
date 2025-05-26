@@ -19,46 +19,6 @@ For example:
 🚨 **The platform will NOT work until this step is completed.**  
 Make sure to do this before running or deploying Agent X.
 
-## ☕ Support
-
-If you find this project helpful, consider buying me a coffee — it keeps me going and helps support future development!
-
-[![Buy Me a Coffee](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/agentx)
-
-
-## 🌟 Key Features
-
-### 🏗️ **Agent Builder**
-![Screenshot](./screenshots/agent_builder.png)
-- **Visual Agent Creation**: Build AI agents through an intuitive interface
-- **Smart Prompt Engineering**: AI-powered prompt optimization and structuring
-- **Multi-Model Support**: Compatible with OpenAI GPT, Google Gemini, and LM Studio models
-- **MCP Tool Integration**: Seamlessly integrate external tools via Model Context Protocol
-
-![Screenshot](./screenshots/agent_builder_tools.png)
-- **MCP tool builder**:Integrated functionality to build and test your own MCP tools.
-- **Real-time Configuration**: Live preview and testing during agent development
-- **Export & Import**: Save and share agent configurations as JSON
-
-### 🧪 **Agent Tester**
-![Screenshot](./screenshots/agent_tester.png)
-- **Interactive Testing Environment**: Chat with your agents in real-time
-- **Performance Monitoring**: Track token usage, response times, and execution logs
-![Screenshot](./screenshots/agent_tester_logs.png)
-- **Multi-Agent Management**: Load and test different agent configurations
-- **Debug & Analytics**: Comprehensive logging and error tracking
-- **Tool Execution Tracking**: Monitor MCP tool calls and results
-- **Configuration Hot-Swapping**: Switch between agent configs without restart
-
-### 🛠️ **MCP Tools Manager**
-![Screenshot](./screenshots/mcp_tester.png)
-- **Server Auto-Discovery**: Automatically detect and load MCP servers
-- **Interactive Tool Testing**: Test MCP tools with dynamic form generation
-- **Multi-Server Support**: Manage multiple MCP servers simultaneously
-- **Real-time Execution**: Execute tools with live feedback and results
-- **Schema Validation**: Automatic parameter validation and type conversion
-- **Beautiful UI**: Modern, responsive interface with gradient animations
-
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -122,6 +82,49 @@ Navigate to `http://localhost:{port}` in your browser. The URL will be shown in 
 - Two tools are integrated for demo : youtube script analyzer and a sample tool
 - You can add more tools in mcp/tools folder as per the sample provided
 - You can define the tool in server.py in /mcp/server.py and it will start listing in the agent builder interface.
+
+
+
+
+## ☕ Support
+
+If you find this project helpful, consider buying me a coffee — it keeps me going and helps support future development!
+
+[![Buy Me a Coffee](https://img.shields.io/badge/-Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/agentx)
+
+
+## 🌟 Key Features
+
+### 🏗️ **Agent Builder**
+![Screenshot](./screenshots/agent_builder.png)
+- **Visual Agent Creation**: Build AI agents through an intuitive interface
+- **Smart Prompt Engineering**: AI-powered prompt optimization and structuring
+- **Multi-Model Support**: Compatible with OpenAI GPT, Google Gemini, and LM Studio models
+- **MCP Tool Integration**: Seamlessly integrate external tools via Model Context Protocol
+
+![Screenshot](./screenshots/agent_builder_tools.png)
+- **MCP tool builder**:Integrated functionality to build and test your own MCP tools.
+- **Real-time Configuration**: Live preview and testing during agent development
+- **Export & Import**: Save and share agent configurations as JSON
+
+### 🧪 **Agent Tester**
+![Screenshot](./screenshots/agent_tester.png)
+- **Interactive Testing Environment**: Chat with your agents in real-time
+- **Performance Monitoring**: Track token usage, response times, and execution logs
+![Screenshot](./screenshots/agent_tester_logs.png)
+- **Multi-Agent Management**: Load and test different agent configurations
+- **Debug & Analytics**: Comprehensive logging and error tracking
+- **Tool Execution Tracking**: Monitor MCP tool calls and results
+- **Configuration Hot-Swapping**: Switch between agent configs without restart
+
+### 🛠️ **MCP Tools Manager**
+![Screenshot](./screenshots/mcp_tester.png)
+- **Server Auto-Discovery**: Automatically detect and load MCP servers
+- **Interactive Tool Testing**: Test MCP tools with dynamic form generation
+- **Multi-Server Support**: Manage multiple MCP servers simultaneously
+- **Real-time Execution**: Execute tools with live feedback and results
+- **Schema Validation**: Automatic parameter validation and type conversion
+- **Beautiful UI**: Modern, responsive interface with gradient animations
 
 
 
