@@ -57,6 +57,7 @@ logs/
 .env.test.local
 .env.production.local
 constants.py
+mcp/mcp_config.json
 
 # Temporary files
 *.tmp

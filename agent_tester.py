@@ -12,7 +12,7 @@ import threading
 # Add project root to path
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
 sys.path.append(project_root)
-print("Project root", project_root)
+
 
 # Global cache for all MCP tools
 all_tools_cache = None

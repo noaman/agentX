@@ -69,6 +69,8 @@ pip install -r requirements.txt
 ```
 
 3. **Configure API Keys**
+
+#### Important : Rename constants.example.py to constants.py
 Edit `constants.py` with your API keys:
 ```python
 GEMINI_API_KEY = "your-gemini-api-key"
@@ -79,6 +81,9 @@ I have used LMStudio for local models, but you can use Ollama and others too.
 Just ensure that when you use tool calling, you choose the right models that support it.
 
 4. **Set up MCP Servers** (Optional)
+
+#### Important : Rename mcp_config_example.json to mcp_config.json
+
 Configure your MCP servers in `mcp/mcp_config.json`:
 ```json
 {
